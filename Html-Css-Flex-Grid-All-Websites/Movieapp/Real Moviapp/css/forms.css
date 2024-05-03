@@ -1,0 +1,12 @@
+.signup-page {
+    margin-top: 52px;
+}
+.signup-title {
+    text-align: center;
+    font-size: 30px;
+    color: #2e4c6d;
+}
+.signup-form{
+    width: 500px;
+    margin: auto;
+}

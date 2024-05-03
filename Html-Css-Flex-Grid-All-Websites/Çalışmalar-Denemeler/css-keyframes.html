@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        background-color: yellow;
+        width: 150px;
+        height: 150px;
+        top: 0;
+        left: 0;
+
+        position: relative;
+
+        animation: a1 5s alternate-reverse infinite ease-in;
+      }
+      /* @keyframes a1 {
+        /* from {
+          top: 0;
+          left: 0;
+        }
+        to {
+          top: 300px;
+          left: 300px;
+        } */
+        /* 25%{
+            top: 100px;
+            left: 0;
+            background-color: aqua;
+        }
+        50%{
+            top: 100px;
+            left: 100px;
+            background-color: brown;
+        }
+        75%{
+            top: 200px;
+            left: 100px;
+            background-color: cadetblue;
+        }
+        100%{
+            top: 200px;
+            left: 200px;
+            background-color: pink;
+        } */
+      /* } */ 
+      h1{
+        position: relative;
+        animation: text-animation 2s forwards ease-in;
+        top: 200px;
+        left: 200px;
+      }
+      @keyframes text-animation{
+        from{
+            top: -200;
+        }
+        to{
+            top: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Welcome</h1>
+      <div class="box">
+        <img src="img/man_with_ipad.png" alt="">
+
+      </div>
+      <img src="" alt="" />
+    </div>
+  </body>
+</html>
